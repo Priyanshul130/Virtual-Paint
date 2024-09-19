@@ -10,10 +10,13 @@ from collections import deque
 lower=np.array([0,102,102])
 upper=np.array([102,255,255])
 
+
 #create the window
 frame=Tk()
 frame.geometry("500x500")
 frame.title("virtual paint")
+
+
 
 #setup deque to store seperate colors in seperate arrays
 bPoints=[deque()]
