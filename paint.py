@@ -17,7 +17,6 @@ frame.geometry("500x500")
 frame.title("virtual paint")
 
 
-
 #setup deque to store seperate colors in seperate arrays
 bPoints=[deque()]
 gPoints=[deque()]
@@ -25,9 +24,11 @@ rPoints=[deque()]
 yPoints=[deque()]
 
 
+
 bIndex=0#index to blue deque
 gIndex=0#index to green deque
 rIndex=0#index to red  deque
+
 yIndex=0#index to yellow deque
 
 
